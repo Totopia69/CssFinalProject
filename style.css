@@ -74,3 +74,18 @@ button {
     border: 1px #3882F6;
     font-weight: bold;
 }
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 36px;
+}
