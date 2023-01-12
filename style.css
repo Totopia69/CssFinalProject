@@ -1,6 +1,5 @@
 body {
-    height: 100vh;
-    overflow: hidden;
+    height: auto;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -61,12 +60,12 @@ ul {
 }
 
 img {
-    height: 286px;
-    width: 620px;
+    height: 235px;
+    width: 510px;
     align-self: flex-end;
 }
 
-button {
+#first-button {
     padding: 10px 36px;
     border-radius: 8px;
     background-color: #3882F6;
@@ -77,7 +76,113 @@ button {
 
 .content {
     display: flex;
+    flex-direction: column;
     flex: 1;
+}
+
+.csection1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    padding-top: 25px;
+}
+
+#info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    margin-top: 25px;
+}
+
+.under {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    text-align: center;
+    color: #595959;
+}
+
+.box {
+    border-radius: 25px;
+    border: 6px solid #3882F6;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.csection2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 500px;
+    background-color: #E5E7EB;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#thunder {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.csection3 {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 300px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 35px 190px;
+}
+
+.half1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+#call {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+
+#there {
+    font-size: small;
+}
+
+#second-button {
+    padding: 10px 36px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
 }
 
 .footer {
